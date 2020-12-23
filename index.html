@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login Form</title>
+    
+</head>
+<style>
+    body{
+        
+    text-align: justify-all;
+    text-align: center;
+    background-image:url(loginimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   color: black;
+        
+    }
+    .container{
+        
+        width: 500px;
+        height=10%;
+        text-align: justify-all;
+        text-align: center;
+        margin: auto;
+        margin-top: 18%;
+        font-display: block;
+    }
+    h1{
+        text-align: center;
+        margin-top: 18
+    }
+    input[type=Username],input[type=Password]{
+        font-size: 1000px;
+    }
+    input[type=submit]{
+        background-color: aqua;
+    }
+    
+    </style>
+    
+<body>
+   <div class="container">
+   <div class="text">
+    <form action="hyperlinks.html" onsubmit="return validateForm()">
+        <label for="Username">Username</label>
+        <input type="text" id="email" name="Username" required><br><br>
+        <label for="Password">Password</label>
+        <input type="text" id="Password" name="password" required><br><br>
+        <div>
+            <input type="submit" value="SUBMIT" id="submit" onclick="validateForm()"> 
+        </div>
+     </form>
+    </div>
+    </div>
+    
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>
